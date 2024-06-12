@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Landing Page - Assignment 2</title>
+    <style>
+      * {
+        margin: 0px;
+        padding: 0px;
+        box-sizing: border-box;
+      }
+      header {
+        height: 80px;
+        position: relative;
+      }
+
+      .logo {
+        position: absolute;
+        top: 50%;
+        padding-left: 30px;
+        transform: translateY(-50%);
+      }
+
+      .info {
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translateX(-50%) translateY(-50%);
+      }
+
+      .searchIcon {
+        position: absolute;
+        right: 0px;
+        padding-right: 30px;
+        top: 50%;
+        transform: translateY(-50%);
+      }
+
+      #section2 {
+        height: 400px;
+        position: relative;
+        background-color: bisque;
+      }
+
+      #section2 > span {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50% -50%);
+      }
+      #section3 {
+        position: relative;
+      }
+
+      #section3 > .child1 {
+        position: absolute;
+        width: 50%;
+        height: 200px;
+        left: 0px;
+      }
+
+      #section3 > .child2 {
+        position: absolute;
+        width: 50%;
+        height: 200px;
+        right: 0px;
+      }
+
+      #section3 > .child2 > p {
+        position: absolute;
+        margin: 20px;
+      }
+
+      #section3 > .child1 > .box {
+        position: absolute;
+        height: 80%;
+        width: 80%;
+        margin: 20px;
+
+        background-color: aquamarine;
+      }
+
+      #section4 {
+        position: relative;
+        top: 200px;
+      }
+
+      #section4 > .child1 {
+        position: absolute;
+        width: 50%;
+        height: 200px;
+        right: 0px;
+      }
+
+      #section4 > .child2 {
+        position: absolute;
+        width: 50%;
+        height: 200px;
+        left: 0px;
+      }
+
+      #section4 > .child2 > p {
+        position: absolute;
+        margin: 20px;
+      }
+
+      #section4 > .child1 > .box {
+        position: absolute;
+        height: 80%;
+        width: 80%;
+        margin: 20px;
+
+        background-color: rgb(184, 202, 196);
+      }
+      footer {
+      position: relative;
+      height: 100px;
+      top: 450px;
+      display: flex;
+      flex-direction: column;
+      align-items: center; 
+      justify-content: center;
+    }
+
+    .footerIcon {
+      display: flex;
+      justify-content: space-between;
+      padding: 20px;
+    }
+
+    .footerIcon span {
+      margin: 0 10px;
+    }
+
+    .establishedYear {
+      text-align: center; 
+    }
+    
+
+    </style>
+  </head>
+  <body>
+    <header>
+      <div class="logo">Logo</div>
+      <div class="info">
+        <span style="padding-right: 20px">Home</span>
+        <span style="padding-right: 20px">About</span>
+        <span style="padding-right: 20px">Destination</span>
+        <span style="padding-right: 20px">Gallery</span>
+      </div>
+      <div class="searchIcon">
+        <svg
+          width="20"
+          height="24"
+          viewBox="0 0 20 24"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M19.728 20.7495L15.8332 16.0766C15.6574 15.8656 15.4191 15.7485 15.1691 15.7485H14.5323C15.6105 14.0939 16.2512 12.0129 16.2512 9.74905C16.2512 4.36364 12.6142 0 8.12559 0C3.63698 0 0 4.36364 0 9.74905C0 15.1345 3.63698 19.4981 8.12559 19.4981C10.0125 19.4981 11.747 18.7294 13.126 17.4358V18.1998C13.126 18.4998 13.2236 18.7857 13.3994 18.9966L17.2942 23.6696C17.6614 24.1101 18.2552 24.1101 18.6185 23.6696L19.7241 22.3431C20.0913 21.9025 20.0913 21.1901 19.728 20.7495ZM8.12559 15.7485C5.36367 15.7485 3.12523 13.0675 3.12523 9.74905C3.12523 6.43531 5.35977 3.74963 8.12559 3.74963C10.8875 3.74963 13.126 6.43062 13.126 9.74905C13.126 13.0628 10.8914 15.7485 8.12559 15.7485Z"
+            fill="black"
+          />
+        </svg>
+      </div>
+    </header>
+    <section id="section2"><span>Master Slide</span></section>
+    <section id="section3">
+      <div class="child1">
+        <div class="box"></div>
+      </div>
+      <div class="child2">
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis,
+          accusamus vel optio a reprehenderit fuga cupiditate eum praesentium
+          blanditiis quaerat explicabo alias esse odio doloremque molestias quos
+          beatae veniam vero mollitia quo repellendus. Praesentium maiores
+          distinctio nulla ipsum voluptatibus magni quam facere repudiandae!
+          Odio laborum eligendi, modi neque sapiente quia nisi possimus fugiat
+          voluptatem, provident repellendus, explicabo nemo. Cumque sequi
+          aliquam nam minima hic fugit earum sunt id officiis veritatis? In
+          alias laborum, sapiente doloribus est excepturi aut architecto aperiam
+          cum praesentium adipisci vol.
+        </p>
+      </div>
+    </section>
+    <section id="section4">
+      <div class="child1">
+        <div class="box"></div>
+      </div>
+      <div class="child2">
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis,
+          accusamus vel optio a reprehenderit fuga cupiditate eum praesentium
+          blanditiis quaerat explicabo alias esse odio doloremque molestias quos
+          beatae veniam vero mollitia quo repellendus. Praesentium maiores
+          distinctio nulla ipsum voluptatibus magni quam facere repudiandae!
+          Odio laborum eligendi, modi neque sapiente quia nisi possimus fugiat
+          voluptatem, provident repellendus, explicabo nemo. Cumque sequi
+          aliquam nam minima hic fugit earum sunt id officiis veritatis? In
+          alias laborum, sapiente doloribus est excepturi aut architecto aperiam
+          cum praesentium adipisci vol.
+        </p>
+      </div>
+    </section>
+    <footer>
+      <div class="footerIcon">
+        <div>
+       <span><img src="facebook.png" alt="facebook"></span>
+        </span>
+        <span><img src="instagram.png" alt="instagram"></span>
+        </span>
+        <span><img src="pInterest.png" alt="pInterest"></span>
+        <span><img src="twitter.png" alt="twitter"></span>
+        <span><img src="youtube.png" alt="youtube"></span>
+      </div>
+    </div>
+      <div class="establishedYear">
+        <span><img src="copyright.png" alt="">Established 2019</span>
+      </div>
+    </footer>
+  </body>
+</html>
